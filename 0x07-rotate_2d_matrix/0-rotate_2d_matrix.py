@@ -1,6 +1,4 @@
 #!/usr/bin/python3
-from typing import List
-
 """
 This module provides a function to rotate an n x n 2D matrix by 90 degrees
 clockwise. The rotation is done in-place, meaning the input matrix is
@@ -8,7 +6,7 @@ modified directly without using extra space for another matrix.
 """
 
 
-def rotate_2d_matrix(matrix: List[List[int]]) -> None:
+def rotate_2d_matrix(matrix):
     """
     Rotates a given n x n 2D matrix 90 degrees clockwise.
 
