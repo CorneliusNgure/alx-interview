@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Island perimeter
+Module to calculate perimeter of the island described in a grid.
 """
 
 
