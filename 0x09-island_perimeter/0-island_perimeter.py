@@ -1,12 +1,15 @@
 #!/usr/bin/python3
-"""Island perimeter"""
+"""
+Island perimeter
+"""
+
 
 def island_perimeter(grid: list[list[int]]) -> int:
     """
     Calculate the perimeter of the island described in grid.
 
     Args:
-        grid (list[list[int]]): A rectangular grid where 0 represents water and 1 represents land.
+        grid (list[list[int]]): Rectangular grid: 0 = water and 1 = land.
 
     Returns:
         int: The perimeter of the island.
