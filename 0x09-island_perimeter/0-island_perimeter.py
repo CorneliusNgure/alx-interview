@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Module to calculate perimeter of the island described in a grid."""
+""" Module to calculate perimeter of the island described in a grid. """
 
 
 def island_perimeter(grid: list[list[int]]) -> int:
