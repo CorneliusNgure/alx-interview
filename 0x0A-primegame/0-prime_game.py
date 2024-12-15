@@ -14,15 +14,9 @@ def isWinner(x, nums):
         str: Name of the player who won the most rounds
         ("Maria" or "Ben"), or None if tied or invalid input.
     """
-    # Input validation
-    if not isinstance(x, int) or x <= 0:
+    if not nums or x < 1:
         return None
-    if not isinstance(nums, list) or any(
-        not isinstance(n, int) or n <= 0 for n in nums
-    ):
-        return None
-    if len(nums) == 0:
-        return None
+    max_nu = max(nums)
 
     def sieve(max_n):
         """Precompute prime no.s up to max_n using Sieve of Eratosthenes."""
